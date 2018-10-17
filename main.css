@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html{
+ font-size: 16px;
+}
+body {
+    display: flex;
+/*    flex-direction: column;*/
+    background-color: #ccc;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("https://static.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+header,.body,footer {
+    display: block;
+    background-color: hsla(0, 0%, 100%, 0.80);
+    margin-top: 50px;
+    width: 80%;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+}
+nav {
+    position: fixed;
+    top: 150px;
+    right: 0;
+    text-align: center;
+    padding: 10px;
+}
+nav a {
+    display:block;
+    margin-bottom: 10px;
+    width: 100px;
+    text-decoration: none;
+    color: #000;
+    margin-left: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: hsla(0, 0%, 100%, 0.55);
+    font-size: 1rem;
+}
+nav a:hover {
+    background-color: #ccc;
+}
+nav a:active {
+    position: relative;
+    top: 2px;
+    box-shadow: 5px 5px hsla(0, 0%, 100%, 0.55);
+}
+.title {
+    flex: 1 0 100%;
+    text-align: center;
+    margin-top: 10px;
+    text-shadow: 4px 4px #ccc;
+    font-size: 2rem;
+}
+.name {
+    flex: 1 0 100%;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 1.5rem;
+    font-family: monospace;
+    text-shadow: 4px 4px #ccc
+}
+
+.body {
+    margin-bottom: 100px;
+}
+.body p {
+    padding: 10px 20px;
+    text-align: justify;
+    margin:  0;
+    font-size: 1rem;
+}
+
+.body h2 {
+    padding: 20px;
+    font-size: 1.5rem;
+}
+.her-img {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+    width: 60%;
+}
+.herman {
+    width: 100%;
+    text-align: center;
+}
+body .her-txt{
+     padding-top: 0;
+    text-align: center;
+    font-style: italic;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: right;
+    padding: 5px 20px;
+    margin: 0;
+    background-color: hsla(21, 100%, 50%, 1);
+    color: #111;
+    text-shadow: 1px 1px 10px white;
+    width: 100%;
+    font-size: 1rem;
+}
+footer p a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 0 #111;
+}
+
+@media (max-width:550px) {
+    body {
+    justify-content: flex-start;
+    background-attachment: fixed;  
+}
+    header {
+        margin-top: 58px;
+    }
+    
+
+header,.body,footer {
+    width: 100%;
+}
+    nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding: 10px;
+        background-color: hsla(21, 100%, 50%, 0.85);
+    width: 100%;
+         transform: translate3d(0,0,0);
+}
+    nav a {
+        color: #fff;
+        display: inline-block;
+        width: auto;
+        background-color: transparent;
+        border: 0;
+        margin: 5px;
+        padding: 5px;
+    }
+    nav a:hover {
+        background-color: transparent;
+    }
+    .her-img {
+    width: 100%;
+}
+  
+}
+
+@media (max-width:768px)and (min-width:550px) {
+    html {
+        font-size: 18px;
+    }
+    body {
+        justify-content: flex-start;
+    }
+    nav {
+        margin: 2px;
+        padding: 2px;
+    }
+    header {
+        width: 100%;
+    }
+}
+
+@media (max-width:1150px)and (min-width:768px) {
+    html {
+        font-size: 18px;
+    }
+    body {
+        justify-content: flex-start;
+    }
+    nav {
+        margin:20px;
+        padding: 2px;
+    }
+    header {
+        width: 100%;
+    }
+}
+
+@media (min-width:1150px) {
+    html {
+        font-size: 20px;
+    }
+}
+@media (min-width:1600px) {
+    html {
+        font-size: 22px;
+    }
+    nav a {
+        width: 140px;
+    }
+}
+
+@media (min-width:2000px) {
+    html {
+        font-size: 24px;
+    }
+}
+@media (min-width:2300px) {
+    html {
+        font-size: 28px;
+    }
+}
