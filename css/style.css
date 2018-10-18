@@ -16,18 +16,29 @@ html {
   margin: 0;
   padding: 0; }
 
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 60px; }
+
 #wrapp {
   width: 1300px;
   min-height: 700px;
   margin: 0 auto;
-  background: gray;
-  border-left: 5px solid whitesmoke;
-  border-right: 5px solid whitesmoke; }
+  border: 5px solid whitesmoke;
+  border-radius: 40px;
+  overflow: hidden;
+  background: url(/i/content/textura.png);
+  background-repeat: no-repeat;
+  background-size: contain; }
 
 header {
   width: 100%;
-  height: 60px;
-  background: lightgray; }
+  height: 70px;
+  background-color: white; }
 
 header h1 {
   text-align: center;
@@ -45,20 +56,20 @@ section img {
   width: 200px;
   height: 130px;
   margin: 10px;
-  border: 2px solid black; }
+  border: 3px solid darkolivegreen; }
 
 aside {
+  overflow: hidden;
   width: 600px;
   height: 640px;
-  background: red;
+  background: darkslategray;
   float: left; }
 
 #holder {
+  overflow: hidden;
   width: 600px;
   height: 350px;
-  background-image: url("../i/content/logocrnobeli.png");
-  /* The image used */
-  background-color: #cccccc;
+  background-color: darkslategrey;
   /* Used if the image is unavailable */
   background-position: center;
   /* Center the image */
@@ -68,9 +79,12 @@ aside {
   /* Resize the background image to cover the entire container */ }
 
 #info {
+  overflow: hidden;
   width: 260px;
   height: 400px;
-  padding: 20px; }
+  padding: 20px;
+  margin: 0 auto;
+  padding-top: 60px; }
 
 .dugme {
   width: 80px;
@@ -83,7 +97,7 @@ aside {
   height: 100%;
   width: 100%;
   z-index: -1;
-  opacity: .15;
+  opacity: .5;
   overflow: hidden; }
   .bg-video__content {
     height: 100%;
@@ -100,15 +114,59 @@ aside {
 .composition {
   position: relative; }
   .composition__photo {
-    border-radius: 2px;
+    border-radius: 13px;
     transition: all .3s;
     outline-offset: 2px; }
     .composition__photo:hover {
-      outline: 6px solid 	whitesmoke;
-      transform: scale(1.05) translateY(-0.5rem);
-      box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+      opacity: 0.8;
+      border: 2px solid white;
+      transform: rotate(2deg) scale(1.1);
       z-index: 20; }
-  .composition:hover .composition__photo:not(:hover) {
-    transform: scale(0.95); }
+
+#holder img:not(.logocb) {
+  border-radius: 0;
+  pointer-events: none; }
+
+.logojs {
+  position: absolute;
+  float: left;
+  width: 190px;
+  height: 100px;
+  margin-left: 16px;
+  top: 51px; }
+
+.connections {
+  float: right;
+  margin-top: 17px;
+  margin-right: 15px; }
+
+a {
+  color: black !important; }
+
+i {
+  font-size: 35px;
+  margin-left: 8px; }
+  i:hover {
+    color: darkolivegreen; }
+
+.logocb {
+  height: 380px;
+  width: 100%; }
+
+.introduction {
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
+  line-height: 33px; }
+
+.myname {
+  font-family: 'Gloria Hallelujah', cursive; }
+
+.fireworks {
+  position: absolute;
+  top: -10px;
+  right: 30px;
+  width: 200px;
+  height: 200px; }
 
 /*# sourceMappingURL=style.css.map */
