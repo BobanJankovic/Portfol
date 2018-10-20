@@ -15,18 +15,80 @@ $(document).ready(function () {
 
     var holder = $('#holder');
     var info = $('#info');
-    var img1info1 = '1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111 ';
-    var img1info2 = '2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222fdfd ';
-    var img1info3 = '333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333 dfdfd ';
-    var img1info4 = 'lo4444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444 ';
-    var img1info5 = 'lo555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555dfdfd ';
-    var img1info6 = 'lo6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666f dfdfd ';
-    var img1info7 = 'lo7777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777fdfd ';
-    var img1info8 = 'l88888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888fd ';
-    var img1info9 = 'l9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999 ';
-    var img1info10 = '10101010101010101010101010101010101010101010101000000000000000000000000000000000000001010101010101 ';
-    var img1info11 = 'l11 111 111 111 11 1 11 1 1 1 1 1 11 1 1 1 11 1 1 1 1 1 111 111 111 11 111 11 111 11 ';
-    var img1info12 = 'lorem ipsum asdasf dfsdfsd sdfsdfsdf sdfsdsdfsd sdfsdfsdf sdfsdfsdf sdfdfdf dfdfd dfdfdfdf dfdfd ';
+
+
+    var para1 = document.createElement("P");   
+    para1.classList.add("mystylep");                    // Create a <p> element
+    var t1 = document.createTextNode('Simple web site with some advanced css properties, everything on this site is done with just pure HTML and CSS, without JS.Some of advanced properties used in this web site: ');      // Create a text node
+    para1.appendChild(t1); 
+
+    var para2 = document.createElement("P");   
+    para2.classList.add("mystylep");                    // Create a <p> element
+    var t2 = document.createTextNode('Simple web site with some advanced css properties, everything on this site is done with just pure HTML and CSS, without JS.Some of advanced properties used in this web site: ');      // Create a text node
+    para2.appendChild(t2); 
+
+    var para3 = document.createElement("P");   
+    para3.classList.add("mystylep");                    // Create a <p> element
+    var t3 = document.createTextNode('Simple web site with some advanced css properties, everything on this site is done with just pure HTML and CSS, without JS.Some of advanced properties used in this web site: ');      // Create a text node
+    para3.appendChild(t3); 
+
+    var para4 = document.createElement("P");   
+    para4.classList.add("mystylep");                    // Create a <p> element
+    var t4 = document.createTextNode('Simple web site with some advanced css properties, everything on this site is done with just pure HTML and CSS, without JS.Some of advanced properties used in this web site: ');      // Create a text node
+    para4.appendChild(t4);
+
+    var para5 = document.createElement("P");   
+    para5.classList.add("mystylep");                    // Create a <p> element
+    var t5 = document.createTextNode('Simple web site with some advanced css properties, everything on this site is done with just pure HTML and CSS, without JS.Some of advanced properties used in this web site: ');      // Create a text node
+    para5.appendChild(t5);
+
+    var para6 = document.createElement("P");   
+    para6.classList.add("mystylep");                    // Create a <p> element
+    var t6 = document.createTextNode('Simple web site with some advanced css properties, everything on this site is done with just pure HTML and CSS, without JS.Some of advanced properties used in this web site: ');      // Create a text node
+    para6.appendChild(t6);
+
+    var para7 = document.createElement("P");   
+    para7.classList.add("mystylep");                    // Create a <p> element
+    var t7 = document.createTextNode('Simple web site with some advanced css properties, everything on this site is done with just pure HTML and CSS, without JS.Some of advanced properties used in this web site: ');      // Create a text node
+    para7.appendChild(t7);
+
+    var para8 = document.createElement("P");   
+    para8.classList.add("mystylep");                    // Create a <p> element
+    var t8 = document.createTextNode('Simple web site with some advanced css properties, everything on this site is done with just pure HTML and CSS, without JS.Some of advanced properties used in this web site: ');      // Create a text node
+    para8.appendChild(t8);
+
+    var para9 = document.createElement("P");   
+    para9.classList.add("mystylep");                    // Create a <p> element
+    var t9 = document.createTextNode('Simple web site with some advanced css properties, everything on this site is done with just pure HTML and CSS, without JS.Some of advanced properties used in this web site: ');      // Create a text node
+    para9.appendChild(t9);
+
+    var para10 = document.createElement("P");   
+    para10.classList.add("mystylep");                    // Create a <p> element
+    var t10 = document.createTextNode('Simple web site with some advanced css properties, everything on this site is done with just pure HTML and CSS, without JS.Some of advanced properties used in this web site: ');      // Create a text node
+    para10.appendChild(t10);
+
+    var para11 = document.createElement("P");   
+    para11.classList.add("mystylep");                    // Create a <p> element
+    var t11 = document.createTextNode('Simple web site with some advanced css properties, everything on this site is done with just pure HTML and CSS, without JS.Some of advanced properties used in this web site: ');      // Create a text node
+    para11.appendChild(t11);
+
+    var para12 = document.createElement("P");   
+    para12.classList.add("mystylep");                    // Create a <p> element
+    var t12 = document.createTextNode('Simple web site with some advanced css properties, everything on this site is done with just pure HTML and CSS, without JS.Some of advanced properties used in this web site: ');      // Create a text node
+    para12.appendChild(t12);
+
+    var img1info1 = para1;
+    var img1info2 = para2;
+    var img1info3 = para3;
+    var img1info4 = para4;
+    var img1info5 = para5;
+    var img1info6 = para6;
+    var img1info7 = para7;
+    var img1info8 = para8;
+    var img1info9 = para9;
+    var img1info10 = para10;
+    var img1info11 = para11;
+    var img1info12 = para12;
     //var btn = document.createElement("BUTTON");        // Create a <button> element
     //var t = document.createTextNode("CLICK ME");       // Create a text node
     //btn.appendChild(t); 
@@ -35,6 +97,7 @@ $(document).ready(function () {
     //var klik = $(".dugme");
    
 
+ $('.big-button').after("#shadow:active");
 
     img1.on('click', function () {
         info.html('');
@@ -56,7 +119,7 @@ $(document).ready(function () {
             height: holder.height()
         }, 1000, function () {
             info.append(img1info1);
-            info.append("<button id=dugme1 class=dugme>Click to see Web site</button>");
+            info.append("<button id=dugme1 class=big-button data-action=submit>Click to see Web site</button>");
 
         });
 
@@ -66,8 +129,10 @@ $(document).ready(function () {
     });
     info.on("click", "#dugme1", function(){
     console.log("radi gudme1")
-    window.location.href = "natours.html";
-    
+    window.open(
+  "green.html",
+  '_blank' // <- This is what makes it open in a new window.
+);
 });
 
     img2.on('click', function () {
@@ -99,7 +164,11 @@ $(document).ready(function () {
     });
     info.on("click", "#dugme2", function(){
     console.log("radi gudme2")
-    window.location.href = "trib.html";
+    //window.location.href = "trib.html";
+    window.open(
+  "trib.html",
+  '_blank' // <- This is what makes it open in a new window.
+);
 });
     img3.on('click', function () {
         info.html('');
@@ -130,7 +199,12 @@ $(document).ready(function () {
     });
     info.on("click", "#dugme3", function(){
     console.log("radi gudme3")
-    window.location.href = "https://alphablogboban.herokuapp.com";
+    //window.location.href = "https://alphablogboban.herokuapp.com";
+     window.open(
+  "https://alphablogboban.herokuapp.com",
+  '_blank' // <- This is what makes it open in a new window.
+);
+    
 });
     img4.on('click', function () {
         info.html('');
@@ -161,7 +235,11 @@ $(document).ready(function () {
     });
     info.on("click", "#dugme4", function(){
     console.log("radi gudme4")
-    window.location.href = "banking.html";
+    //window.location.href = "banking.html";
+    window.open(
+  "banking.html",
+  '_blank' // <- This is what makes it open in a new window.
+);
     
 });
     img5.on('click', function () {
@@ -193,7 +271,11 @@ $(document).ready(function () {
     });
     info.on("click", "#dugme5", function(){
     console.log("radi gudme5")
-    window.location.href = "nexter.html";
+    window.location.href = "houses.html";
+    window.open(
+  "houses.html",
+  '_blank' // <- This is what makes it open in a new window.
+);
     
 });
     img6.on('click', function () {
@@ -219,13 +301,15 @@ $(document).ready(function () {
              info.append("<button id=dugme6 class=dugme>Click to see Web site</button>");
         });
 
-
-
-        holder.append(copy);
+     holder.append(copy);
     });
     info.on("click", "#dugme6", function(){
     console.log("radi gudme6")
-    window.location.href = "trillo.html";
+    //window.location.href = "booking.html";
+     window.open(
+  "booking.html",
+  '_blank' // <- This is what makes it open in a new window.
+);
 });
     img7.on('click', function () {
         info.html('');
@@ -256,7 +340,11 @@ $(document).ready(function () {
     });
     info.on("click", "#dugme7", function(){
     console.log("radi gudme7")
-    window.location.href = "shop.html";
+    //window.location.href = "shop.html";
+    window.open(
+  "shop.html",
+  '_blank' // <- This is what makes it open in a new window.
+);
 });
     img8.on('click', function () {
         info.html('');
@@ -287,7 +375,11 @@ $(document).ready(function () {
     });
     info.on("click", "#dugme8", function(){
     console.log("radi gudme8")
-    window.location.href = "http://financetracker.herokuapp.com/";
+    //window.location.href = "http://financetracker.herokuapp.com/";
+    window.open(
+  "http://financetracker.herokuapp.com/",
+  '_blank' // <- This is what makes it open in a new window.
+);
 });
     img9.on('click', function () {
         info.html('');
@@ -318,7 +410,11 @@ $(document).ready(function () {
     });
     info.on("click", "#dugme9", function(){
     console.log("radi gudme9")
-    window.location.href = "http://booking-families.herokuapp.com/#/";
+    //window.location.href = "http://booking-families.herokuapp.com/#/";
+    window.open(
+  "http://booking-families.herokuapp.com/#/",
+  '_blank' // <- This is what makes it open in a new window.
+);
     
 });
     img10.on('click', function () {
@@ -350,7 +446,11 @@ $(document).ready(function () {
     });
     info.on("click", "#dugme10", function(){
     console.log("radi gudme10")
-    window.location.href = "http://indecisionapp.herokuapp.com/";
+    //window.location.href = "http://indecisionapp.herokuapp.com/";
+    window.open(
+  "http://indecisionapp.herokuapp.com/",
+  '_blank' // <- This is what makes it open in a new window.
+);
 });
     img11.on('click', function () {
         info.html('');
@@ -381,7 +481,11 @@ $(document).ready(function () {
     });
     info.on("click", "#dugme11", function(){
     console.log("radi gudme11")
-    window.location.href = "http://expensify.herokuapp.com";
+    //window.location.href = "http://expensify.herokuapp.com";
+     window.open(
+  "http://expensify.herokuapp.com",
+  '_blank' // <- This is what makes it open in a new window.
+);
 });
     img12.on('click', function () {
         info.html('');
@@ -413,7 +517,11 @@ $(document).ready(function () {
 
 info.on("click", "#dugme12", function(){
     console.log("radi gudme12")
-    window.location.href = "http://bobanjankovicwinary.herokuapp.com/";
+    //window.location.href = "http://bobanjankovicwinary.herokuapp.com/";
+     window.open(
+  "http://bobanjankovicwinary.herokuapp.com/",
+  '_blank' // <- This is what makes it open in a new window.
+);
     
 });
 
