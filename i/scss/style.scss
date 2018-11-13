@@ -10,8 +10,24 @@ html {
 .container {
   padding-top:50px;
 }
+.sign-dash {
+  color:darkred;
+  font-weight: 700;
+}
+.sign {
+  color:darkred;
+  font-weight: 700;
+  text-align: center;
+}
 .row {
   margin-bottom:10px;
+}
+.signature {
+  position: absolute;
+ 
+  width: fit-content;
+  top: 90px;
+  left: 385px;
 }
 * {
   margin: 0;
@@ -45,6 +61,7 @@ html {
 }
 
 header{
+  
   width:100%;
   height: 70px;
   background-color:white;
@@ -79,18 +96,13 @@ aside {
   float:left;
 }
 #holder {
-  overflow:hidden;
+  overflow: hidden;
   width: 600px;
-  height: 350px;
-  
-  //background-image: url("../i/content/logocrnobeli.png"); /* The image used */
-  background-color: darkslategrey; /* Used if the image is unavailable */
- 
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-  
- 
+  height: 356px;
+  background-color: darkslategrey;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
 }
 .mystylep {
   //width:560px;
@@ -164,26 +176,22 @@ aside {
 }
 .composition {
     position: relative;
-
-    &__photo {
-        
-      
-        border-radius: 13px;
-        
-       
-        transition: all .3s;
-        outline-offset: 2px;
-
-      
-
     
-
-        &:hover {
-            opacity:0.8;
-            border:2px solid white;
+    &__photo {
+      border-radius: 13px;
+      outline-offset: 2px;
+      opacity:0.9;
+      border: 1px solid darkslategray;
+      z-index: 555;
+          &:hover {
+            transition: all 0.6s;
+            opacity:1;
+            border-radius: 30px;
             transform: rotate(2deg) scale(1.1);
-            
+            backface-visibility: hidden;
             z-index: 20;
+            border:1px solid white;
+            
         }
 
     }
@@ -200,13 +208,13 @@ aside {
     
     }
     .logojs {
-      position: absolute;
-      float: left;
-      width: 220px;
-      height: 200px;
-      margin-left: 16px;
-      top: 15px;
-      z-index: 999;
+    position: absolute;
+    float: left;
+    width: 220px;
+    height: 200px;
+    margin-left: 30px;
+    top: 8px;
+    z-index: 999;
     }
     .connections{
       position: relative;
@@ -242,7 +250,8 @@ aside {
       font-size: 25px;
       text-align: center;
       font-family: 'Gloria Hallelujah', cursive;
-      line-height: 33px;;
+      line-height: 33px;
+      padding: 50px;
     }
     .myname {
       font-family: 'Gloria Hallelujah', cursive;
@@ -254,34 +263,26 @@ aside {
 
 .big-button {
   position: relative;
-  background-color:#ccffcc;
-  color: #000000;
-  font-family: 'Sansita One', cursive;
-  font-size: 13px;
-  font-weight: 300;
-  
-  
-  //margin: 10px auto;
+  background-color: #ccffcc;
+  color: black;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 20px;
+  font-weight: 900;
   padding: 10px;
-  height: 55px;
-  width: 110px;
+  height: 51px;
+  width: 152px;
   text-decoration: none;
   text-transform: capitalize;
-  
-  
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  
-  -webkit-box-shadow: 0px 15px 0px whitesmoke, 0px 10px 25px rgba(0,0,0,.5);
-  -moz-box-shadow: 0px 15px 0px whitesmoke, 0px 10px 25px rgba(0,0,0,.5);
-  box-shadow: 0px 7px 0px #214466, 0px 10px 25px rgba(0,0,0,.5);
-  
+  -webkit-box-shadow: 0px 15px 0px whitesmoke, 0px 10px 25px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 15px 0px whitesmoke, 0px 10px 25px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 7px 0px #214466, 0px 10px 25px rgba(0, 0, 0, 0.5);
   margin: 0 auto;
-  
   border-color: #1d3f88;
-  border-width: 8px;
-  border-radius: 40px 100px 100px 100px;
+  border-width: 5px;
+  border-radius: 56px;
   padding: 5px;
 }
 
