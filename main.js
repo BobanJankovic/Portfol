@@ -119,7 +119,7 @@ $(document).ready(function () {
             height: holder.height()
         }, 1000, function () {
             info.append(img1info1);
-            info.append("<button id=dugme1 class=big-button data-action=submit>Open Website</button>");
+            info.append("<button id=dugme1 class=big-button data-action=submit>Launch Website</button>");
 
         });
 
@@ -155,7 +155,7 @@ $(document).ready(function () {
             height: holder.height()
         }, 1000, function () {
             info.append(img1info2);
-             info.append("<button id=dugme2 class=big-button data-action=submit>Open Website</button>");
+             info.append("<button id=dugme2 class=big-button data-action=submit>Launch Website</button>");
         });
 
 
@@ -190,7 +190,7 @@ $(document).ready(function () {
             height: holder.height()
         }, 1000, function () {
             info.append(img1info3);
-             info.append("<button id=dugme3 class=big-button data-action=submit>Open Website</button>");
+             info.append("<button id=dugme3 class=big-button data-action=submit>Launch Website</button>");
         });
 
 
@@ -226,7 +226,7 @@ $(document).ready(function () {
             height: holder.height()
         }, 1000, function () {
             info.append(img1info4);
-             info.append("<button id=dugme4 class=big-button data-action=submit>Open Website</button>");
+             info.append("<button id=dugme4 class=big-button data-action=submit>Launch Website</button>");
         });
 
 
@@ -262,7 +262,7 @@ $(document).ready(function () {
             height: holder.height()
         }, 1000, function () {
             info.append(img1info5);
-            info.append("<button id=dugme5 class=big-button data-action=submit>Open Website</button>");
+            info.append("<button id=dugme5 class=big-button data-action=submit>Launch Website</button>");
         });
 
 
@@ -298,7 +298,7 @@ $(document).ready(function () {
             height: holder.height()
         }, 1000, function () {
             info.append(img1info6);
-             info.append("<button id=dugme6 class=big-button data-action=submit>Open Website</button>");
+             info.append("<button id=dugme6 class=big-button data-action=submit>Launch Website</button>");
         });
 
      holder.append(copy);
@@ -331,7 +331,7 @@ $(document).ready(function () {
             height: holder.height()
         }, 1000, function () {
             info.append(img1info7);
-             info.append("<button id=dugme7 class=big-button data-action=submit>Open Website</button>");
+             info.append("<button id=dugme7 class=big-button data-action=submit>Launch Website</button>");
         });
 
 
@@ -366,7 +366,7 @@ $(document).ready(function () {
             height: holder.height()
         }, 1000, function () {
             info.append(img1info8);
-             info.append("<button id=dugme8 class=big-button data-action=submit>Open Website</button>");
+             info.append("<button id=dugme8 class=big-button data-action=submit>Launch Website</button>");
         });
 
 
@@ -401,7 +401,7 @@ $(document).ready(function () {
             height: holder.height()
         }, 1000, function () {
             info.append(img1info9);
-             info.append("<button id=dugme9 class=big-button data-action=submit>Open Website</button>");
+             info.append("<button id=dugme9 class=big-button data-action=submit>Launch Website</button>");
         });
 
 
@@ -437,7 +437,7 @@ $(document).ready(function () {
             height: holder.height()
         }, 1000, function () {
             info.append(img1info10);
-             info.append("<button id=dugme10 class=big-button data-action=submit>Open Website</button>");
+             info.append("<button id=dugme10 class=big-button data-action=submit>Launch Website</button>");
         });
 
 
@@ -472,7 +472,7 @@ $(document).ready(function () {
             height: holder.height()
         }, 1000, function () {
             info.append(img1info11);
-             info.append("<button id=dugme11 class=big-button data-action=submit>Open Website</button>");
+             info.append("<button id=dugme11 class=big-button data-action=submit>Launch Website</button>");
         });
 
 
@@ -507,7 +507,7 @@ $(document).ready(function () {
             height: holder.height()
         }, 1000, function () {
             info.append(img1info12);
-             info.append("<button id=dugme12 class=big-button data-action=submit>Open Website</button>");
+             info.append("<button id=dugme12 class=big-button data-action=submit>Launch Website</button>");
         });
 
 
