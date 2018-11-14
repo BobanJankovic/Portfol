@@ -10,8 +10,25 @@ html {
 .container {
   padding-top: 50px; }
 
+.sign-dash {
+  color: darkred;
+  font-weight: 700; }
+
+.sign {
+  color: darkred;
+  font-weight: 700;
+  text-align: center; }
+
 .row {
   margin-bottom: 10px; }
+
+.signature {
+  position: absolute;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  top: 90px;
+  left: 385px; }
 
 * {
   margin: 0;
@@ -43,7 +60,7 @@ html {
 header {
   width: 100%;
   height: 70px;
-  background-color: white; }
+  background-color: darkred; }
 
 header h1 {
   text-align: center;
@@ -76,15 +93,11 @@ aside {
 #holder {
   overflow: hidden;
   width: 600px;
-  height: 350px;
+  height: 356px;
   background-color: darkslategrey;
-  /* Used if the image is unavailable */
   background-position: center;
-  /* Center the image */
   background-repeat: no-repeat;
-  /* Do not repeat the image */
-  background-size: cover;
-  /* Resize the background image to cover the entire container */ }
+  background-size: cover; }
 
 .mystylep {
   overflow: scroll;
@@ -149,11 +162,23 @@ aside {
   position: relative; }
   .composition__photo {
     border-radius: 13px;
-    outline-offset: 2px; }
+    outline-offset: 2px;
+    opacity: 0.9;
+    border: 1px solid darkslategray;
+    z-index: 555; }
     .composition__photo:hover {
-      opacity: 0.8;
-      border: 2px solid white;
-      z-index: 20; }
+      -webkit-transition: all 0.6s;
+      -o-transition: all 0.6s;
+      transition: all 0.6s;
+      opacity: 1;
+      border-radius: 30px;
+      -webkit-transform: rotate(2deg) scale(1.1);
+      -ms-transform: rotate(2deg) scale(1.1);
+      transform: rotate(2deg) scale(1.1);
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      z-index: 20;
+      border: 1px solid white; }
 
 #holder img:not(.logocb) {
   border-radius: 0;
@@ -164,8 +189,8 @@ aside {
   float: left;
   width: 220px;
   height: 200px;
-  margin-left: 16px;
-  top: 15px;
+  margin-left: 30px;
+  top: 8px;
   z-index: 999; }
 
 .connections {
@@ -198,7 +223,8 @@ i {
   font-size: 25px;
   text-align: center;
   font-family: 'Gloria Hallelujah', cursive;
-  line-height: 33px; }
+  line-height: 33px;
+  padding: 50px; }
 
 .myname {
   font-family: 'Gloria Hallelujah', cursive; }
@@ -206,13 +232,13 @@ i {
 .big-button {
   position: relative;
   background-color: #ccffcc;
-  color: #000000;
-  font-family: 'Sansita One', cursive;
-  font-size: 13px;
-  font-weight: 300;
+  color: black;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 20px;
+  font-weight: 900;
   padding: 10px;
-  height: 55px;
-  width: 110px;
+  height: 51px;
+  width: 152px;
   text-decoration: none;
   text-transform: capitalize;
   -webkit-border-radius: 5px;
@@ -223,8 +249,8 @@ i {
   box-shadow: 0px 7px 0px #214466, 0px 10px 25px rgba(0, 0, 0, 0.5);
   margin: 0 auto;
   border-color: #1d3f88;
-  border-width: 8px;
-  border-radius: 40px 100px 100px 100px;
+  border-width: 5px;
+  border-radius: 56px;
   padding: 5px; }
 
 .big-button:active {

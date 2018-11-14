@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Sansita+One);
 html {
-  background-color: darkslategray; }
+  background-color: darkslategray;
+  zoom: 90%; }
 
 .images {
   border: 2px solid black;
