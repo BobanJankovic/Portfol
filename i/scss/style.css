@@ -1,7 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Sansita+One);
 html {
-  background-color: darkslategray; }
+  background-color: darkslategray;
+  zoom: 80%; }
 
+@media screen and (max-width: 300px) {
+  html {
+    zoom: 60%; } }
+@media screen and (max-width: 1100px) {
+  .bg-video {
+    display: none; } }
 .images {
   border: 2px solid black;
   margin-right: 10px;
@@ -10,8 +17,23 @@ html {
 .container {
   padding-top: 50px; }
 
+.sign-dash {
+  color: darkred;
+  font-weight: 700; }
+
+.sign {
+  color: darkred;
+  font-weight: 700;
+  text-align: center; }
+
 .row {
   margin-bottom: 10px; }
+
+.signature {
+  position: absolute;
+  width: fit-content;
+  top: 90px;
+  left: 385px; }
 
 * {
   margin: 0;
@@ -24,14 +46,12 @@ html {
   width: 100%;
   height: 100%;
   padding-top: 60px;
-  -webkit-animation-name: moveInLeft;
   animation-name: moveInLeft;
-  -webkit-animation-duration: 5s;
   animation-duration: 5s; }
 
 #wrapp {
   width: 1300px;
-  min-height: 700px;
+  min-height: 200px;
   margin: 0 auto;
   border: 5px solid whitesmoke;
   border-radius: 40px;
@@ -67,39 +87,31 @@ aside {
   overflow: hidden;
   width: 600px;
   height: 640px;
-  background-image: -webkit-gradient(linear, right top, left top, from(whitesmoke), to(rgba(51, 100, 0, 0.5)));
-  background-image: -webkit-linear-gradient(right, whitesmoke, rgba(51, 100, 0, 0.5));
-  background-image: -o-linear-gradient(right, whitesmoke, rgba(51, 100, 0, 0.5));
   background-image: linear-gradient(-90deg, whitesmoke, rgba(51, 100, 0, 0.5));
   float: left; }
 
 #holder {
   overflow: hidden;
   width: 600px;
-  height: 350px;
+  height: 356px;
   background-color: darkslategrey;
-  /* Used if the image is unavailable */
   background-position: center;
-  /* Center the image */
   background-repeat: no-repeat;
-  /* Do not repeat the image */
-  background-size: cover;
-  /* Resize the background image to cover the entire container */ }
+  background-size: cover; }
 
 .mystylep {
   overflow: scroll;
   height: 190px;
-  font-size: 22px;
-  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 25px;
+  font-family: 'Noto Sans TC', sans-serif;
   color: black;
-  font-weight: 700; }
+  font-weight: 400; }
 
 ::-webkit-scrollbar {
   width: 15px; }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 5px grey;
   box-shadow: inset 0 0 5px grey;
   border-radius: 10px; }
 
@@ -135,7 +147,6 @@ aside {
   .bg-video__content {
     height: 100%;
     width: 100%;
-    -o-object-fit: cover;
     object-fit: cover; }
 
 .slike {
@@ -149,11 +160,18 @@ aside {
   position: relative; }
   .composition__photo {
     border-radius: 13px;
-    outline-offset: 2px; }
+    outline-offset: 2px;
+    opacity: 0.9;
+    border: 1px solid darkslategray;
+    z-index: 555; }
     .composition__photo:hover {
-      opacity: 0.8;
-      border: 2px solid white;
-      z-index: 20; }
+      transition: all 0.6s;
+      opacity: 1;
+      border-radius: 30px;
+      transform: rotate(2deg) scale(1.1);
+      backface-visibility: hidden;
+      z-index: 20;
+      border: 1px solid white; }
 
 #holder img:not(.logocb) {
   border-radius: 0;
@@ -164,8 +182,8 @@ aside {
   float: left;
   width: 220px;
   height: 200px;
-  margin-left: 16px;
-  top: 15px;
+  margin-left: 30px;
+  top: 8px;
   z-index: 999; }
 
 .connections {
@@ -198,7 +216,8 @@ i {
   font-size: 25px;
   text-align: center;
   font-family: 'Gloria Hallelujah', cursive;
-  line-height: 33px; }
+  line-height: 33px;
+  padding: 50px; }
 
 .myname {
   font-family: 'Gloria Hallelujah', cursive; }
@@ -206,13 +225,13 @@ i {
 .big-button {
   position: relative;
   background-color: #ccffcc;
-  color: #000000;
-  font-family: 'Sansita One', cursive;
-  font-size: 13px;
-  font-weight: 300;
+  color: black;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 20px;
+  font-weight: 900;
   padding: 10px;
-  height: 55px;
-  width: 110px;
+  height: 51px;
+  width: 152px;
   text-decoration: none;
   text-transform: capitalize;
   -webkit-border-radius: 5px;
@@ -223,34 +242,21 @@ i {
   box-shadow: 0px 7px 0px #214466, 0px 10px 25px rgba(0, 0, 0, 0.5);
   margin: 0 auto;
   border-color: #1d3f88;
-  border-width: 8px;
-  border-radius: 40px 100px 100px 100px;
+  border-width: 5px;
+  border-radius: 56px;
   padding: 5px; }
 
 .big-button:active {
-  -webkit-box-shadow: 0px 3px 0px #2a3e57, 0px 3px 6px rgba(0, 0, 0, 0.9);
   box-shadow: 0px 3px 0px #2a3e57, 0px 3px 6px rgba(0, 0, 0, 0.9);
   position: relative;
   top: 8px; }
 
-@-webkit-keyframes moveInLeft {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(-100px);
-    transform: translateX(-100px); }
-  80% { }
-  100% {
-    opacity: 1;
-    -webkit-transform: translate(0px);
-    transform: translate(0px); } }
-
 @keyframes moveInLeft {
   0% {
     opacity: 0;
-    -webkit-transform: translateX(-100px);
     transform: translateX(-100px); }
-  80% { }
   100% {
     opacity: 1;
-    -webkit-transform: translate(0px);
     transform: translate(0px); } }
+
+/*# sourceMappingURL=style.css.map */
