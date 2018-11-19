@@ -100,12 +100,14 @@ aside {
   background-size: cover; }
 
 .mystylep {
+  margin-left: 5px;
+  line-height: 38px;
   overflow: scroll;
   height: 190px;
   font-size: 25px;
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: 'Nanum Myeongjo', serif;
   color: black;
-  font-weight: 400; }
+  font-weight: 700; }
 
 ::-webkit-scrollbar {
   width: 15px; }
@@ -215,23 +217,26 @@ i {
 .introduction {
   font-size: 25px;
   text-align: center;
-  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Cinzel', serif;
   line-height: 33px;
-  padding: 50px; }
+  padding: 50px;
+  font-weight: 900; }
 
 .myname {
-  font-family: 'Gloria Hallelujah', cursive; }
+  font-family: 'Cinzel', serif;
+  font-size: 26px; }
 
 .big-button {
+  background-color: floralwhite;
   position: relative;
-  background-color: #ccffcc;
+  font-size: 25px;
   color: black;
   font-family: 'Shadows Into Light', cursive;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 900;
   padding: 10px;
   height: 51px;
-  width: 152px;
+  width: 190px;
   text-decoration: none;
   text-transform: capitalize;
   -webkit-border-radius: 5px;
