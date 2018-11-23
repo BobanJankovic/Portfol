@@ -3,6 +3,7 @@ html {
     zoom:80%;
     
     
+    
 
 }
 @media screen and (max-width: 300px) {
@@ -66,10 +67,7 @@ html {
   border: 5px solid whitesmoke;
   border-radius: 40px;
   overflow:hidden;
-  background: url(/i/content/textura.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    
+ 
   
 }
 
@@ -92,6 +90,10 @@ section {
   height: 640px;
   float: left;
   margin: auto;
+  background: url(/i/content/textura.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
   
 }
 section img {
@@ -283,7 +285,7 @@ aside {
 
 
 .big-button {
-  background-color: floralwhite;
+  background-color: darkred;
   position: relative;
   font-size: 25px;
   color: black;
