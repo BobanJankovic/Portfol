@@ -55,10 +55,7 @@ html {
   margin: 0 auto;
   border: 5px solid whitesmoke;
   border-radius: 40px;
-  overflow: hidden;
-  background: url(/i/content/textura.png);
-  background-repeat: no-repeat;
-  background-size: contain; }
+  overflow: hidden; }
 
 header {
   width: 100%;
@@ -75,7 +72,10 @@ section {
   width: 700px;
   height: 640px;
   float: left;
-  margin: auto; }
+  margin: auto;
+  background: url(/i/content/textura.png);
+  background-repeat: no-repeat;
+  background-size: contain; }
 
 section img {
   width: 200px;
@@ -143,7 +143,7 @@ aside {
   left: 0;
   height: 100%;
   width: 100%;
-  z-index: -1;
+  z-index: -2;
   opacity: .5;
   overflow: hidden; }
   .bg-video__content {
@@ -232,7 +232,7 @@ i {
   text-shadow: 2px 2px 8px darkslategray; }
 
 .big-button {
-  background-color: floralwhite;
+  background-color: whitesmoke;
   position: relative;
   font-size: 25px;
   color: black;

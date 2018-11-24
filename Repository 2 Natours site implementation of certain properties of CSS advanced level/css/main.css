@@ -1,7 +1,7 @@
 /*
 Error: File to import not found or unreadable: abstracts/functions.
-       Load path: /home/user/Desktop/Portf/Repository 2 Natours site implementation of certain properties of CSS advanced level/sass
-        on line 1 of /home/user/Desktop/Portf/Repository 2 Natours site implementation of certain properties of CSS advanced level/sass/main.scss
+       Load path: /home/user/Desktop/Actual projects/Portf/Repository 2 Natours site implementation of certain properties of CSS advanced level/sass
+        on line 1 of /home/user/Desktop/Actual projects/Portf/Repository 2 Natours site implementation of certain properties of CSS advanced level/sass/main.scss
 
 1: @import "abstracts/functions";
 2: @import "abstracts/mixins";
@@ -11,7 +11,7 @@ Error: File to import not found or unreadable: abstracts/functions.
 6: @import "base/base";
 
 Backtrace:
-/home/user/Desktop/Portf/Repository 2 Natours site implementation of certain properties of CSS advanced level/sass/main.scss:1
+/home/user/Desktop/Actual projects/Portf/Repository 2 Natours site implementation of certain properties of CSS advanced level/sass/main.scss:1
 /usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:67:in `rescue in import'
 /usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:44:in `import'
 /usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -49,4 +49,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: abstracts/functions.\A        Load path: /home/user/Desktop/Portf/Repository 2 Natours site implementation of certain properties of CSS advanced level/sass\A         on line 1 of /home/user/Desktop/Portf/Repository 2 Natours site implementation of certain properties of CSS advanced level/sass/main.scss\A \A 1: @import \"abstracts/functions\";\A 2: @import \"abstracts/mixins\";\A 3: @import \"abstracts/variables\";\A 4: \A 5: @import \"base/animations\";\A 6: @import \"base/base\";"; }
+  content: "Error: File to import not found or unreadable: abstracts/functions.\A        Load path: /home/user/Desktop/Actual projects/Portf/Repository 2 Natours site implementation of certain properties of CSS advanced level/sass\A         on line 1 of /home/user/Desktop/Actual projects/Portf/Repository 2 Natours site implementation of certain properties of CSS advanced level/sass/main.scss\A \A 1: @import \"abstracts/functions\";\A 2: @import \"abstracts/mixins\";\A 3: @import \"abstracts/variables\";\A 4: \A 5: @import \"base/animations\";\A 6: @import \"base/base\";"; }
