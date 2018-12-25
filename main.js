@@ -68,7 +68,7 @@ $(document).ready(function () {
     para10.appendChild(t10);
 
     var para11 = document.createElement("P");   
-    para11.classList.add("mystylep");                    // Create a <p> element
+    para11.classList.add("mystylep");                   
     var t11 = document.createTextNode('This app is made of React with Redux architecture, app allows users to add new expenses. Data manipulation is enabled through CRUD as four basic functions of persistent storage. Users have opportunity to edit or delete their expenses , app owns functionality for adding expenses with a date picker, ability to sort expenses by amount or creation date, search feature and opportunity for users to edit or delete theirs expenses. In this app Firebase Realtime Database is implemented to store data as JSON, and to establish synchronization in realtime for every connected user. App owns ability to authenticate users by integrating with federated identity providers. The Firebase Authentication SDK provides methods that allow users to sign in with their Google account. ');      // Create a text node
     para11.appendChild(t11);
 
