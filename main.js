@@ -69,7 +69,7 @@ $(document).ready(function () {
 
     var para11 = document.createElement("P");   
     para11.classList.add("mystylep");                    // Create a <p> element
-    var t11 = document.createTextNode('This app is built with React with Redux architecture, app allows users to add new expenses. Data manipulation is enabled through CRUD as four basic functions of persistent storage. Users have opportunity to edit or delete their expenses , app owns functionality for adding monthly bills with a date picker, and opportunity for users to edit or delete theirs monthly bills. In this app Firebase Realtime Database is implemented to store data as JSON, and to establish synchronization in realtime for every connected user. Firebase authentication is also implemented so users can be authenticated with email adress and passwords. The Firebase SDK provides methods to create and menage users that use their email adress and password to sign in. ');      // Create a text node
+    var t11 = document.createTextNode('This app is made of React with Redux architecture, app allows users to add new expenses. Data manipulation is enabled through CRUD as four basic functions of persistent storage. Users have opportunity to edit or delete their expenses , app owns functionality for adding expenses with a date picker, ability to sort expenses by amount or creation date, search feature and opportunity for users to edit or delete theirs expenses. In this app Firebase Realtime Database is implemented to store data as JSON, and to establish synchronization in realtime for every connected user. App owns ability to authenticate users by integrating with federated identity providers. The Firebase Authentication SDK provides methods that allow users to sign in with their Google account. ');      // Create a text node
     para11.appendChild(t11);
 
     var para12 = document.createElement("P");   
@@ -483,7 +483,7 @@ $(document).ready(function () {
     console.log("radi gudme11")
     //window.location.href = "http://expensify.herokuapp.com";
      window.open(
-  "http://expensify.herokuapp.com",
+  "https://cc-expensify.herokuapp.com/",
   '_blank' // <- This is what makes it open in a new window.
 );
 });

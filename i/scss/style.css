@@ -75,7 +75,7 @@ section {
   margin: auto;
   background: url(/i/content/textura.png);
   background-repeat: no-repeat;
-  background-size: contain; }
+  background-size: cover; }
 
 section img {
   width: 200px;
@@ -163,7 +163,7 @@ aside {
   .composition__photo {
     border-radius: 13px;
     outline-offset: 2px;
-    opacity: 0.9;
+    opacity: 1;
     border: 1px solid darkslategray;
     z-index: 555; }
     .composition__photo:hover {
@@ -232,7 +232,7 @@ i {
   text-shadow: 2px 2px 8px darkslategray; }
 
 .big-button {
-  background-color: whitesmoke;
+  background-color: white;
   position: relative;
   font-size: 25px;
   color: black;
